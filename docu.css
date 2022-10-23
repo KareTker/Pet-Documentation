@@ -1,0 +1,139 @@
+.container {
+    display: table;
+    width: 100%;
+    margin-top: 100px;
+}
+.left-half {
+    position: absolute;
+    left: 0px;
+    width: 20%;
+    height:70%;
+    background-color: rgb(0, 122, 204);
+    border: black 2px none;
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px  lightblue;
+}
+.right-half {
+    position: absolute;
+    right: 0px;
+    width: 40%;
+    height:80%;
+    background-color: rgb(0, 122, 204);
+    border: rgb(0, 51, 204) 2px solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px lightblue;
+}
+html {
+    background-color: rgb(255, 204, 128);
+    color: wheat;
+    font-family: 'Dosis', sans-serif;
+    }
+.dog {
+    margin:15px;
+}
+.title {
+    margin: 5px;
+}
+.chew {
+    color: wheat;
+    background-color: rgb(0, 122, 204);
+    height: 90%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+i {
+    color: wheat;
+    margin: 5px;
+}
+button {
+    background:rgb(0, 51, 204);
+    color: wheat;
+    font-family: 'Dosis', sans-serif;
+    padding: 5px;
+    border: 3px solid rgb(0, 45, 179);
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover {
+    opacity: 50%;
+}
+.spacing {
+    padding-bottom: 10px;
+}
+.fade-in {
+    animation: fadeIn ease 2.5s;
+    -webkit-animation: fadeIn ease 2.5s;
+    -moz-animation: fadeIn ease 2.5s;
+    -o-animation: fadeIn ease 2.5s;
+    -ms-animation: fadeIn ease 2.5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+.pic {
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.bottom {
+    margin-top: 50%;
+    border: 3.5px dotted wheat;
+    border-radius: 1%;
+    padding: 2%;
+}
+.friends {
+    color: black;
+    opacity: 35%;
+}
+
+
+
+
